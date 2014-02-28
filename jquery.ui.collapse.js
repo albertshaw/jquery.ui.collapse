@@ -3,6 +3,8 @@
  * Depends:
  *  jquery.ui.core.js
  *  jquery.ui.widget.js
+ * 
+ *  Released under the MIT license.
  */
 (function($, undefined) {
 
