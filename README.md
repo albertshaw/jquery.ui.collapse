@@ -13,4 +13,7 @@ $(selector).collapse("option", "active", "all");
 
 // 收缩panel把active改成deactive即可，用法类似
 $(selector).collapse("option", "deactive", "all");
+
+// isActive 判断某个pnael是否展开
+$(selector).collapse("isActive", 1);
 ```
