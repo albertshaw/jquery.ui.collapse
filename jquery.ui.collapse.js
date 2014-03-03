@@ -238,6 +238,10 @@
             this._destroyIcons();
             this._refresh();
         },
+        
+        isActive : function (index) {
+            return this.options.active[index] === true;
+        },
 
         _processPanels : function () {
             this.headers = this.element.find(this.options.header).addClass(
